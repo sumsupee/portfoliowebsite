@@ -1,12 +1,18 @@
 // app/api/projects/[id]/route.ts
-import { NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from 'next/server';
 import { getProjectData } from '../../../../lib/markdown';
 
+interface Context {
+  params: Promise<{
+    id: string;
+  }>;
+}
+
 export async function GET(
-  request: Request,
-  context: { params: { id: string } }
+  request: NextRequest,
+  { params }: Context
 ) {
-  const { id } = await context.params;
+  const { id } = await params;
 
   try {
     const project = await getProjectData(id);
