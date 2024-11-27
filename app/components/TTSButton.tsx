@@ -341,7 +341,7 @@ const TTSButton: React.FC<TTSButtonProps> = ({ content, projectTitle }) => {
         role="dialog"
         aria-modal="true"
         aria-labelledby="settings-modal-title"
-        className={`absolute top-12 left-0 mt-2 w-64 bg-white bg-[#2d2d2d] rounded-lg shadow-lg z-50 transform transition-all duration-300 ${
+        className={`absolute top-12 left-0 mt-2 w-64 bg-[#2d2d2d] rounded-lg shadow-lg z-50 transform transition-all duration-300 ${
           isSettingsOpen
             ? 'opacity-100 scale-100 pointer-events-auto'
             : 'opacity-0 scale-95 pointer-events-none'

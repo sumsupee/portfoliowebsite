@@ -163,7 +163,7 @@ export default function PortfolioComponent() {
           />
         </div>
         <p className="text-sm text-gray-300 leading-tight">
-        I am a Human-Computer Interaction technologist with expertise in automating complex workflows through human-centered design and technology. Positioned at the intersection of design and business, I specialize in integrating AI tools into existing workflows for practical, impactful solutions. I thrive on observing, interacting, and building to solve real-world problems. My scrappiness fuels rapid prototyping and effective validation of what works. 
+        I am a US-based Human-Computer Interaction technologist with expertise in automating complex workflows through human-centered design and technology. Positioned at the intersection of design and business, I specialize in integrating AI tools into existing workflows for practical, impactful solutions. I thrive on observing, interacting, and building to solve real-world problems. My scrappiness fuels rapid prototyping and effective validation of what works. 
       {" "}
           {/* <Link href="/more" className="underline hover:text-white">
             [more...]
